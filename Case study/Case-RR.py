@@ -93,7 +93,6 @@ for i in range(1000):
 
 RLT_Sum_list = np.sort(RLT_Sum_list)[::-1]
 limit = RLT_Sum_list[int(len(RLT_Sum_list) * 0.005)]
-limit = 33.8
 print(limit)
 
 # phase II
