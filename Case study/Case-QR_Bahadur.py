@@ -82,8 +82,6 @@ with open("Day.txt", "r") as file:
 print(len(S_D))
 S_D = np.array(S_D)
 print(S_D[outliers])
-#outliers = [22, 23, 24, 25, 29, 30, 31, 33, 34,35]  # 1sigma
-#
 
 
 DF1 = DF1[~DF1['Day_number'].isin(outliers)]
