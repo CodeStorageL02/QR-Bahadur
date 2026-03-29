@@ -98,13 +98,6 @@ limit = RLT_Sum_list[int(len(RLT_Sum_list) * 0.005)]
 print(limit)
 
 
-
-
-
-
-limit = 38
-print(limit)
-
 # phase II
 
 y_f1 = DF1['y'].to_numpy().reshape(-1,1)
